@@ -1,76 +1,48 @@
+/* Min Width 1600px */
+@media only screen and (min-width: 1600px){
+    .container{
+        max-width: 1550px !important;
+    }
+
+    .search input{
+        width: 375px !important;
+    }
+
+    .table-sorting-wpr{
+        gap: 150px;
+    }
+
+    table.nf-table th:first-child{
+        padding-left: 90px !important;
+    }
+
+    table.nf-table td:first-child{
+        padding-left: 90px !important;
+    }
+}
+
 /* Min Width 1400px */
 @media only screen and (min-width:1400px){
 
-    .container-right {
-        padding-left: calc((100% - 1320px) / 2 + 15px) !important;
-        padding-right: 0;
+    .header-left{
+        gap: 40px;
     }
 
-    .faq-content-wpr .service-list{
-        max-width: 50%;
+    .search input{
+        width: 290px;
     }
 
-    .faq input[type="radio"]:checked ~ .faq-content-wpr{
-        height: 230px;
+    .nav-menu{
+        gap: 60px;
     }
 
-    .faq-2 .faq input[type="radio"]:checked ~ .faq-content-wpr{
-        height: 305px;
+    .header-right .btn{
+        width: 200px;
+        padding: 0;
     }
 
-    .project-contact h6{
-        max-width: 35%;
-    }
-
-    .project-contact::before{
-        height: 100%;
-    }
-
-    .testimonial-1 .single-review .review-image,
-    .testimonial-1 .single-review .review-content{
-        padding: 0 40px;
-    }
-
-    .career-slider .slide-content{
-        margin-top: 60px;
-        padding-left: 0;
-    }
-
-    .career-slider + #counter{
-        right: 34%;
-        bottom: 25%;
-    }
-
-    .career-slider .owl-nav{
-        bottom: 100px;
-        left: calc(100% - 46.9%)
-    }
-
-    .career-slider .owl-nav button{
-        width: 114px;
-        height: 74px;
-    }
-
-    .career-slider .slide-content .company-name{
-        left: -35%;
-        margin-bottom: 32px;
-    }
-
-    .project-slider .owl-nav{
-        left: 693px;
-    }
-
-    .project-slider .project-content{
-        margin-top: 180px;
-    }
-
-    .project-slider .project-name{
-        top: 62px;
-    }
-
-    .project-slider + #counter{
-        right: 37%;
-        bottom: 22%;
+    .table-sorting-wpr{
+        gap: 40px;
     }
 
 }
@@ -78,33 +50,16 @@
 /* Min Width 1200px */
 @media only screen and (min-width:1200px){
 
-    .container-right {
-        padding-left: calc((100% - 1140px) / 2 + 15px);
-        padding-right: 0;
+    .container{
+        max-width: calc(100% - 160px);
     }
 
-    .catelog-wpr{
-        padding: 0 40px;
+    table.nf-table th:first-child{
+        padding-left: 50px;
     }
 
-    .about-company .single-counter p{
-        padding-right: 60px;
-    }
-
-    .mof-about-us .single-content,
-    .mof-service-2,
-    .mof-strength{
-        margin-bottom: 150px;
-    }
-
-    .mof-about-us .single-content:nth-child(2n) .about-image,
-    .about-image.pe{
-        padding-right: 80px;
-        padding-left: 0;
-    }
-    
-    .about-content{
-        padding-right: 80px;
+    table.nf-table td:first-child{
+        padding-left: 50px;
     }
 
 }
@@ -114,35 +69,7 @@
 
 @media only screen and (min-width:992px){
 
-    .mobile-nav-heading{
-        display: none;
-    }
-
-    .mof-nav-wpr{
-        display: block !important;
-    }
-
-    .catelog-content .catelog-image{
-        display: none;
-    }
-
-    .single-project.mt-top{
-        margin-top: 50%;
-    }
-
-    .about-content .about-image{
-        display: none;
-    }
-
-    .service-cat-wpr{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-    }
-
-    .achivement-counter .single-counter{
-        width: 70%;
-        margin: 40px auto 0;
-    }
+   
 
 }
 
@@ -150,92 +77,33 @@
 
 @media only screen and (max-width:1199px){
 
-    .container-right{
-        padding-left: calc((100% - 960px) / 2 + 15px);
-        padding-right: 0;
+    .header-left{
+        gap: 16px;
     }
 
-    .faq-2 .faq input[type="radio"]:checked ~ .faq-content-wpr {
-        height: 470px;
+    .nav-menu{
+        gap: 24px;
     }
 
-    .faq-content-wpr .service-list{
-        max-width: 80%;
+    .header-right{
+        gap: 16px;
     }
 
-    .project-contact h6{
-        max-width: 50%;
+    .header-right .btn{
+        padding: 0 24px;
     }
 
-    .about-main-content .project-contact h6{
-        max-width: 68%;
+    .table-toolbar{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        margin: 32px 0;
     }
 
-    .project-contact::before{
-        height: 70%;
+    .table-sorting-wpr{
+        width: 100%;
+        justify-content: space-between;
     }
-
-    .blog-slider .single-blog .blog-title{
-        padding-right: 0;
-    }
-
-    .founder-content,
-    .mof-cmp-highlights .challange-content{
-        padding: 100px;
-    }
-
-    .service-image .content{
-        width: 85%;
-    }
-
-    .services-wpr{
-        grid-gap: 50px;
-    }
-
-    .mof-blogs{
-        grid-gap: 70px;
-    }
-
-    .single-review .review-text{
-        padding: 24px;
-    }
-
-    .single-review .review-text img{
-        margin-bottom: 16px;
-    }
-
-    .strength-cat-links,
-    .mof-strength .strength-content{
-        max-width: 80%;
-    }
-
-    .project-slider .owl-nav{
-        left: 525px;
-        bottom: 74px;
-    }
-
-    .project-slider .project-name{
-        top: 30px;
-    }
-
-    .project-slider .project-content{
-        margin-top: 130px;
-    }
-
-    .mof-career{
-        margin-bottom: 70px;
-    }
-
-    .career-slider .owl-nav {
-        bottom: 24px;
-        left: calc(100% - 53%);
-    }
-
-    .career-slider + #counter{
-        right: 41%;
-        bottom: 16%;
-    }
-
 }
 
 /* Max Width 1099px */
@@ -276,316 +144,18 @@
 
 @media only screen and (max-width:991px){
 
-    .container-right{
-        padding-left: calc((100% - 720px) / 2 + 15px);
-        padding-right: 0;
+    .nf-table-wpr{
+        padding-bottom: 50px;
     }
 
-    .sec-spacer-top{
-        padding-top: 100px;
-    }
-
-    h1{
-        font-size: 60px;
-        line-height: 72px;
-    }
-
-    .banner-content,
-    .about-2 .about-banner{
-        padding: 120px 0;
-    }
-
-    .home-banner .banner-content{
-        padding: 130px 0;
-    }
-
-    /* Mobile Nav Start */
-
-    .mof-header-container{
-        padding: 16px 24px;
-    }
-
-    .mobile-nav-heading{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 16px 0;
-    }
-
-    .mobile-nav-heading *{
-        font-size: 14px;
-        font-weight: var(--font-weight-normal);
-    }
-
-    .nav-toggle{
-        display: inline-block;
-        width: 40px;
-        font-size: 35px;
-        text-align: center;
-        margin-right: 32px;
-        cursor: pointer;
-    }
-
-    .nav-close{
-        cursor: pointer;
-    }
-
-    .mof-nav-wpr{
-        position: fixed;
-        top: 0;
-        left: 0;
-        display: none;
-        width: 100%;
-        height: 100vh;
-        background-color: var(--secondary-color);
-        padding: 0 16px;
-        z-index: 1000;
-    }
-
-    .mof-main-nav{
-        position: relative;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        gap: 8px;
-        top: calc(100vh - 80vh);
-    }
-
-    .mof-main-nav .nav-item{
-        width: 100%;
-        opacity: 0;
-        transform: translateY(20px);
-        transition: 1s ease-in-out;
-    }
-
-    .mof-nav-wpr.show .nav-item{
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-    .mof-main-nav .nav-item a{
-        font-size: 32px;
-        font-weight: var(--font-weight-normal);
-        padding: 8px 0;
-    }
-
-    .mof-main-nav .nav-item:last-child a{
-        border-bottom: 0;
-    }
-
-    .mof-main-nav .nav-item a.active{
-        color: var(--primary-color);
-        border-bottom: 0;
+    table.nf-table{
+        display: block;
     }
 
     /* Mobile Nav End */
 
-    .mof-feature-projects{
-        padding: 0 0 100px;
-    }
-
-    .project-slider .owl-nav{
-        bottom: 0;
-        left: 45%;
-        margin-top: 40px;
-    }
-
-    .owl-nav button{
-        width: 100px;
-        height: 60px;
-    }
-
-    .project-slider + #counter{
-        bottom: 19%;
-    }
-
-    .project-slider .project-content{
-        margin-top: 90px;
-    }
-
-    .landing-banner{
-        height: auto;
-        padding: 150px 0;
-    }
-
-    .mof-marketing{
-        padding-bottom: 100px;
-        margin-top: 40px;
-    }
-
-    .mof-marketing .marketing-heading{
-        padding-top: 225px;
-    }
-
-    .marketing-heading .sec-title {
-        max-width: 100%;
-        font-size: 65px;
-        line-height: 72px;
-    }
-
-    .marketing-steps{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .marketing-step:last-child::after{
-        transform: rotate(149deg);
-    }
-
-    .catelog-content{
-        max-width: 100%;
-        text-align: center;
-        padding: 32px 24px;
-    }
-
-    .strength-cat-links,
-    .mof-strength .strength-content{
-        max-width: 100%;
-    }
-
-    .mof-about-us .single-content,
-    .mof-service-2,
-    .mof-strength{
-        margin-bottom: 90px;
-    }
-
-    .mof-about-us .single-content:nth-child(2n) .about-image,
-    .about-content{
-        padding: 0;
-    }
-
-    .about-content .about-image{
-        margin: 8px 0 32px;
-    }
-
-    .founder-content, 
-    .mof-cmp-highlights .challange-content{
-        padding: 100px 0;
-    }
-
-    .project-contact h6{
-        max-width: 70%;
-    }
-
-    .about-main-content .project-contact h6{
-        max-width: 90%;
-    }
-
-    .project-contact::before{
-        height: 56%;
-    }
-
-    .career-slider .slide-content .company-name{
-        left: 0;
-    }
-
-    .career-slider .owl-nav{
-        position: absolute;
-        bottom: auto;
-        top: -90px;
-        left: 71%;
-    }
-
-    .career-slider + #counter{
+    .nf-main-nav{
         display: none;
-    }
-
-    .company-services .service-list{
-        column-count: 2;
-        margin-bottom: 50px;
-    }
-
-    .tab-content .project-list{
-        padding-bottom: 0;
-    }
-
-    .tab-content .single-project{
-        padding-bottom: 90px;
-    }
-
-    .single-project .project-name{
-        font-size: 55px;
-        margin-bottom: 24px;
-        line-height: 65px;
-        right: -233px;
-    }
-
-    .services-wpr,
-    .mof-blogs{
-        grid-template-columns: 1fr;
-    }
-
-    .mof-blogs-wpr{
-        margin-bottom: 100px;
-    }
-
-    .testimonial-1{
-        padding-bottom: 100px;
-    }
-
-    .testimonial-1 .single-review .review-image{
-        padding: 40px 80px;
-    }
-
-    .testimonial-1 h6.text-center{
-        margin-bottom: 40px;
-    }
-
-    .testimonial-2 .review-content{
-        max-width: 100%;
-    }
-
-    .testimonial-3 .review-text{
-        font-size: 24px;
-        font-weight: var(--font-weight-semi-bold);
-        line-height: 32px;
-    }
-
-    .testimonial-3 .review-client{
-        margin-top: 90px;
-    }
-
-    .faq label h2 {
-        font-size: 45px;
-        line-height: 55px;
-    }
-
-    .faq-list .faq{
-        padding: 32px 24px 37px 120px;
-    }
-
-    .faq-content-wpr .service-list{
-        max-width: 100%;
-    }
-
-    .faq input[type="radio"]:checked ~ .faq-content-wpr {
-        height: 270px;
-    }
-
-    .mof-faq.faq-2{
-        margin: 50px 0 100px;
-    }
-
-    .faq-2 .faq-list .faq {
-        padding: 28px 0 10px 120px;
-    }
-
-    .faq-2 .faq input[type="radio"]:checked ~ .faq-content-wpr{
-        height: 320px;
-    }
-
-    .landing-banner .banner-content{
-        justify-content: center;
-        padding: 0;
-    }
-
-    .partners-wpr{
-        margin: 70px 0 100px;
-    }
-
-    .footer-top .social-links{
-        justify-content: flex-start;
-        margin-top: 24px;
     }
 
 }
