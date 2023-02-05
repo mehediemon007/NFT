@@ -1,16 +1,9 @@
 ;(function($){
 
-    var mobileMenuIcon = $('.mobile-menu-icon');
-
-    
-    if (mobileMenuIcon.length) {
-        mobileMenuIcon.on('click', function (e) {
-            e.preventDefault();
-            $("i",this).toggleClass('fa-bars fa-times');
-            $('.vea-main-nav').slideToggle();
-        });
-
-    }
+    $(".nav-toggle").on("click",function(){
+        $("i", this).toggleClass("fa-solid fa-bars fa-solid fa-xmark");
+        $(".nf-main-nav").slideToggle("500")
+    })
 
     $("select").on("click",function(){
         $(this).toggleClass("active")
