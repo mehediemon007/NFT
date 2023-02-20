@@ -19,6 +19,10 @@
     table.nf-table td:first-child{
         padding-left: 90px !important;
     }
+
+    table.nf-table-2 td:first-child{
+        padding-left: 80px !important;
+    }
 }
 
 /* Min Width 1400px */
@@ -52,6 +56,10 @@
 
     .container{
         max-width: calc(100% - 160px);
+    }
+
+    .trnd-collection-2 .container{
+        max-width: calc(100% - 50px);
     }
 
     table.nf-table th:first-child{
@@ -105,6 +113,10 @@
     .table-sorting-wpr{
         width: 100%;
         justify-content: space-between;
+    }
+
+    .nf-table-2{
+        display: block;
     }
 }
 

@@ -42,6 +42,12 @@ body{
     background-attachment: fixed;
 }
 
+.body-2{
+    background: url('../images/bg-2.png') no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -544,4 +550,68 @@ td .crypto-name{
 
 .nf-table::-webkit-scrollbar-thumb {
     background: var(--primary-color);
+}
+
+
+/* NFT Table 2 */
+
+table.nf-table-2 th{
+    font-size: 18px;
+    font-weight: var(--font-weight-semi-bold);
+    line-height: 23px;
+}
+
+table.nf-table-2 td{
+    padding: 12px 8px;
+    border: 0;
+}
+
+td .has-img{
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.table.nf-table-2 td p.val{
+    position: relative;
+    font-size: 20px;
+    font-weight: var(--font-weight-medium);
+    line-height: 25px;
+}
+
+.table.nf-table-2 td .percent{
+    position: absolute;
+    font-size: 12px;
+    font-weight: var(--font-weight-normal);
+    line-height: 15px;
+    margin-left: 12px;
+}
+
+td .percent.up{
+    color: #A9EDB0;
+}
+
+td .percent.up::before{
+    position: absolute;
+    content: "+";
+    left: -8px;
+}
+
+td .percent.down{
+    color: #F8A3A3;
+}
+
+td .percent.down::before{
+    position: absolute;
+    content: "-";
+    left: -8px;
+}
+
+.chart-container .chart{
+    width: 100px !important;
+    height: 70px !important;
+}
+
+.chart.area-chart{
+    width: 110px;
 }
